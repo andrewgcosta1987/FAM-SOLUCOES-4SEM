@@ -1,0 +1,12 @@
+* {margin: 0;padding: 0; box-sizing: border-box}
+body {color: #fff}
+main {background-color: #000; width: 95%; margin:10px auto}
+main, section, article, footer {display: block; border: 1px solid #fff;}
+h1, h2 {text-align: center}
+#lado-e, #lado-d {width: 50%; float: left; padding: 5px}
+#lado-d {height: 600px; overflow-y: auto}
+footer {clear: both; text-align: center}
+table, tr, td, th {border: 1px solid #fff}
+table {width: 100%; border-collapse: collapse}
+td img {max-width: 5.08rem; height: 10%;}
+figure img {min-height: 550px; max-width: 700px; margin: 5px}
