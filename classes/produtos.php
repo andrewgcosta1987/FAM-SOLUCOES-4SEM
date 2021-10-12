@@ -53,11 +53,15 @@ class Produto{
 
 $produto1 = new Produto("001", "Hamburguer Artesanal", "disponível", "Hamburguer", "Feito na hora");
 $produto1->apresentarProduto();
-echo '<br>';
+echo '; Código do Produto: ';
 echo $produto1->getCodigo();
+echo '; Nome: ';
 echo $produto1->getNome();
+echo '; Status no Estoque: ';
 echo $produto1->getEstoque();
+echo '; Categoria: ';
 echo $produto1->getCategoria();
+echo '; Quantidades disponível: ';
 echo $produto1->getQuantidade();
 
 ?>
